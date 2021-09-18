@@ -1,0 +1,113 @@
+.pin-container {
+  transition: 0.2s;
+}
+
+.pin-body {
+  width: 16px;
+  height: 26px;
+  transition: 0.4s;
+}
+
+.clicked {
+  width: 36px;
+  height: 46px;
+  animation-name: reposition;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.unclicked {
+  animation-name: dereposition;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.big-head-modafoka {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background-color: #41436a;
+  transition: 0.2s;
+}
+
+.clicked > .big-head-modafoka {
+  width: 36px;
+  height: 36px;
+  border-radius: 36px;
+}
+
+.little-leg {
+  width: 0;
+  height: 0;
+  margin-left: 4px;
+  margin-top: -2px;
+  position: absolute;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 12px solid #41436a;
+  transition: 0.2s;
+}
+
+.clicked > .little-leg {
+  margin-left: 14px;
+}
+
+.xp-display {
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: white;
+  font-family: 'Oxanium', sans-serif;
+  font-size: 8px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.clicked .xp-display {
+  width: 26px;
+  height: 26px;
+  border-radius: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clicked .xp-display span {
+  animation-name: fadein;
+  animation-duration: 1.5s;
+  color: #41436a;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes reposition {
+  0% {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  100% {
+    margin-top: -20px;
+    margin-left: -8px;
+  }
+}
+
+@keyframes dereposition {
+  0% {
+    margin-top: -20px;
+    margin-left: -8px;
+  }
+  100% {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
