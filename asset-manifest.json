@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/zombiecide_table/static/css/main.a0435e6d.chunk.css",
+    "main.js": "/zombiecide_table/static/js/main.7c5e9de6.chunk.js",
+    "main.js.map": "/zombiecide_table/static/js/main.7c5e9de6.chunk.js.map",
+    "runtime-main.js": "/zombiecide_table/static/js/runtime-main.25186b79.js",
+    "runtime-main.js.map": "/zombiecide_table/static/js/runtime-main.25186b79.js.map",
+    "static/js/2.ad96b2b4.chunk.js": "/zombiecide_table/static/js/2.ad96b2b4.chunk.js",
+    "static/js/2.ad96b2b4.chunk.js.map": "/zombiecide_table/static/js/2.ad96b2b4.chunk.js.map",
+    "index.html": "/zombiecide_table/index.html",
+    "static/css/main.a0435e6d.chunk.css.map": "/zombiecide_table/static/css/main.a0435e6d.chunk.css.map",
+    "static/js/2.ad96b2b4.chunk.js.LICENSE.txt": "/zombiecide_table/static/js/2.ad96b2b4.chunk.js.LICENSE.txt",
+    "static/media/heal_button.da81d9ed.svg": "/zombiecide_table/static/media/heal_button.da81d9ed.svg",
+    "static/media/heal_button_clicked.eab8ad9e.svg": "/zombiecide_table/static/media/heal_button_clicked.eab8ad9e.svg",
+    "static/media/next_button.38b93da2.svg": "/zombiecide_table/static/media/next_button.38b93da2.svg",
+    "static/media/prev_button.36a9820b.svg": "/zombiecide_table/static/media/prev_button.36a9820b.svg",
+    "static/media/take_damage_button.37ed8f18.svg": "/zombiecide_table/static/media/take_damage_button.37ed8f18.svg",
+    "static/media/take_damage_button_clicked.9760adad.svg": "/zombiecide_table/static/media/take_damage_button_clicked.9760adad.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25186b79.js",
+    "static/js/2.ad96b2b4.chunk.js",
+    "static/css/main.a0435e6d.chunk.css",
+    "static/js/main.7c5e9de6.chunk.js"
+  ]
+}
